@@ -40,6 +40,6 @@ perceptron = Perceptron(3, epochs=125)
 instances = [[1, 0, 0], [0, 1, 0], [0, 0, 1], [1, 1, 1], [0, 0, 0]]
 labels = [[1, 1, 1, 1, 0]]
 
-
+perceptron.fit(instances, labels)
         
       
