@@ -35,5 +35,11 @@ class Perceptron:
       print(f"EPOCHS {_+1} ------------> error: {error_total}")
 
 perceptron = Perceptron(3, epochs=125)
+
+# Logica con OR
+instances = [[1, 0, 0], [0, 1, 0], [0, 0, 1], [1, 1, 1], [0, 0, 0]]
+labels = [[1, 1, 1, 1, 0]]
+
+
         
       
