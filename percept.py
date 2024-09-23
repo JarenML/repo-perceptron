@@ -33,5 +33,7 @@ class Perceptron:
         
         
       print(f"EPOCHS {_+1} ------------> error: {error_total}")
+
+perceptron = Perceptron(3, epochs=125)
         
       
