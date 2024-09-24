@@ -41,5 +41,8 @@ instances = [[1, 0, 0], [0, 1, 0], [0, 0, 1], [1, 1, 1], [0, 0, 0]]
 labels = [[1, 1, 1, 1, 0]]
 
 perceptron.fit(instances, labels)
+
+print("Prediccion 1")
+print(perceptron.predict([1, 1, 0]))
         
       
